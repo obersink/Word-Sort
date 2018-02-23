@@ -12,6 +12,8 @@
 		8C2F89BB203FA15500B0F2B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2F89B9203FA15500B0F2B3 /* Main.storyboard */; };
 		8C2F89BD203FA15500B0F2B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C2F89BC203FA15500B0F2B3 /* Assets.xcassets */; };
 		8C2F89C0203FA15500B0F2B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2F89BE203FA15500B0F2B3 /* LaunchScreen.storyboard */; };
+		8C2F89C8203FA51700B0F2B3 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F89C7203FA51700B0F2B3 /* ViewModel.swift */; };
+		8C2F89CA203FAE7400B0F2B3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F89C9203FAE7400B0F2B3 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8C2F89BC203FA15500B0F2B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C2F89BF203FA15500B0F2B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C2F89C1203FA15500B0F2B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C2F89C7203FA51700B0F2B3 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		8C2F89C9203FAE7400B0F2B3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				8C2F89BC203FA15500B0F2B3 /* Assets.xcassets */,
 				8C2F89BE203FA15500B0F2B3 /* LaunchScreen.storyboard */,
 				8C2F89C1203FA15500B0F2B3 /* Info.plist */,
+				8C2F89C7203FA51700B0F2B3 /* ViewModel.swift */,
+				8C2F89C9203FAE7400B0F2B3 /* Model.swift */,
 			);
 			path = "Word Sort";
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C2F89B8203FA15500B0F2B3 /* ViewController.swift in Sources */,
+				8C2F89C8203FA51700B0F2B3 /* ViewModel.swift in Sources */,
 				8C2F89B6203FA15500B0F2B3 /* AppDelegate.swift in Sources */,
+				8C2F89CA203FAE7400B0F2B3 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
